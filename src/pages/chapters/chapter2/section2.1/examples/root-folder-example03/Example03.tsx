@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-type Example03PropTypes = {
+interface Example03PropTypes {
   onClick?: () => void;
   children?: React.ReactNode;
   movieName?: string;
-};
+}
 
 function Button({ onClick, children }: Example03PropTypes) {
   return <button onClick={onClick}>{children}</button>;

@@ -1,20 +1,51 @@
 import { Link } from "react-router-dom";
+import SectionButton from "../../../components/SectionButton";
+import PageContainer from "../../../components/PageContainer";
 
-type HomePagePropTypes = {
+interface HomePagePropTypes {
   chapterNum: String;
   chapterTitle: String;
   sectionNum: String;
   sectionTitle: String;
-};
+}
+
+const sectionsData = [
+  {
+    sectionNum: "2.1",
+    sectionTitle: "Responding to Events",
+  },
+  {
+    sectionNum: "2.2",
+    sectionTitle: "State: A Component's Memory",
+  },
+  {
+    sectionNum: "2.3",
+    sectionTitle: "Render and Commit",
+  },
+  {
+    sectionNum: "2.4",
+    sectionTitle: "State as a Snapshot",
+  },
+  {
+    sectionNum: "2.5",
+    sectionTitle: "Queueing a Series of State Updates",
+  },
+  {
+    sectionNum: "2.6",
+    sectionTitle: "Updating Objects in State",
+  },
+  {
+    sectionNum: "2.7",
+    sectionTitle: "Updating Arrays in State",
+  },
+];
 
 export default function Chapter2Page({
   chapterNum,
-  sectionNum,
   chapterTitle,
-  sectionTitle,
 }: HomePagePropTypes) {
   return (
-    <div className="page-container">
+    <PageContainer>
       <Link className="link-homepage" to="/">
         Back to Home Page
       </Link>
@@ -23,48 +54,15 @@ export default function Chapter2Page({
           Chapter {chapterNum}: {chapterTitle}
         </h2>
       </section>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
-        Section 2.1: Responding to Events
-      </h2>
-      <button>
-        <Link to="/section2.1">Section 2.1</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
-        Section 2.2: State: A Component's Memory
-      </h2>
-      <button>
-        <Link to="/section2.2">Section 2.2</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
-        Section 2.3: Render and Commit
-      </h2>
-      <button>
-        <Link to="/section2.3">Section 2.3</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
-        Section 2.4: State as a Snapshot
-      </h2>
-      <button>
-        <Link to="/section2.4">Section 2.4</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
-        Section 2.5: Queueing a Series of State Updates
-      </h2>
-      <button>
-        <Link to="/section2.5">Section 2.5</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
-        Section 2.6: Updating Objects in State
-      </h2>
-      <button>
-        <Link to="/section2.6">Section 2.6</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
-        Section 2.7: Updating Arrays in State
-      </h2>
-      <button>
-        <Link to="/section2.7">Section 2.7</Link>
-      </button>
-    </div>
+      <div>
+        {sectionsData.map((section) => (
+          <SectionButton
+            key={section.sectionNum}
+            sectionNum={section.sectionNum}
+            sectionTitle={section.sectionTitle}
+          />
+        ))}
+      </div>
+    </PageContainer>
   );
 }

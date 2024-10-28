@@ -284,6 +284,109 @@ import Chapter3Section3Part7Example09 from "./pages/chapters/chapter3/section3.7
 import Chapter3Section3Part7Example10 from "./pages/chapters/chapter3/section3.7/examples/root-folder-example10/Example10.tsx";
 // CHAPTER 4
 import Chapter4Page from "./pages/chapters/chapter4/Chapter4Page";
+// SECTION 4.1
+import Section4Part1 from "./pages/chapters/chapter4/section4.1/Section4.1Page.tsx";
+import Chapter4Section4Part1Example01 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example01/Example01.tsx";
+import Chapter4Section4Part1Example02 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example02/Example02.tsx";
+import Chapter4Section4Part1Example03 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example03/Example03.tsx";
+import Chapter4Section4Part1Example04 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example04/Example04.tsx";
+import Chapter4Section4Part1Example05 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example05/Example05.tsx";
+import Chapter4Section4Part1Example06 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example06/Example06.tsx";
+import Chapter4Section4Part1Example07 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example07/Example07.tsx";
+import Chapter4Section4Part1Example08 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example08/Example08.tsx";
+import Chapter4Section4Part1Example09 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example09/Example09.tsx";
+import Chapter4Section4Part1Example10 from "./pages/chapters/chapter4/section4.1/examples/root-folder-example10/Example10.tsx";
+// SECTION 4.2
+import Section4Part2 from "./pages/chapters/chapter4/section4.2/Section4.2Page.tsx";
+import Chapter4Section4Part2Example01 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example01/Example01.tsx";
+import Chapter4Section4Part2Example02 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example02/Example02.tsx";
+import Chapter4Section4Part2Example03 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example03/Example03.tsx";
+import Chapter4Section4Part2Example04 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example04/Example04.tsx";
+import Chapter4Section4Part2Example05 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example05/Example05.tsx";
+import Chapter4Section4Part2Example06 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example06/Example06.tsx";
+import Chapter4Section4Part2Example07 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example07/Example07.tsx";
+import Chapter4Section4Part2Example08 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example08/Example08.tsx";
+import Chapter4Section4Part2Example09 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example09/Example09.tsx";
+import Chapter4Section4Part2Example10 from "./pages/chapters/chapter4/section4.2/examples/root-folder-example10/Example10.tsx";
+// SECTION 4.3
+import Section4Part3 from "./pages/chapters/chapter4/section4.3/Section4.3Page.tsx";
+import Chapter4Section4Part3Example01 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example01/Example01.tsx";
+import Chapter4Section4Part3Example02 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example02/Example02.tsx";
+import Chapter4Section4Part3Example03 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example03/Example03.tsx";
+import Chapter4Section4Part3Example04 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example04/Example04.tsx";
+import Chapter4Section4Part3Example05 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example05/Example05.tsx";
+import Chapter4Section4Part3Example06 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example06/Example06.tsx";
+import Chapter4Section4Part3Example07 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example07/Example07.tsx";
+import Chapter4Section4Part3Example08 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example08/Example08.tsx";
+import Chapter4Section4Part3Example09 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example09/Example09.tsx";
+import Chapter4Section4Part3Example10 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example10/Example10.tsx";
+import Chapter4Section4Part3Example11 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example11/Example11.tsx";
+import Chapter4Section4Part3Example12 from "./pages/chapters/chapter4/section4.3/examples/root-folder-example12/Example12.tsx";
+// SECTION 4.4
+import Section4Part4 from "./pages/chapters/chapter4/section4.4/Section4.4Page.tsx";
+import Chapter4Section4Part4Example01 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example01/Example01.tsx";
+import Chapter4Section4Part4Example02 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example02/Example02.tsx";
+import Chapter4Section4Part4Example03 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example03/Example03.tsx";
+import Chapter4Section4Part4Example04 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example04/Example04.tsx";
+import Chapter4Section4Part4Example05 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example05/Example05.tsx";
+import Chapter4Section4Part4Example06 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example06/Example06.tsx";
+import Chapter4Section4Part4Example07 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example07/Example07.tsx";
+import Chapter4Section4Part4Example08 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example08/Example08.tsx";
+import Chapter4Section4Part4Example09 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example09/Example09.tsx";
+import Chapter4Section4Part4Example10 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example10/Example10.tsx";
+import Chapter4Section4Part4Example11 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example11/Example11.tsx";
+import Chapter4Section4Part4Example12 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example12/Example12.tsx";
+import Chapter4Section4Part4Example13 from "./pages/chapters/chapter4/section4.4/examples/root-folder-example13/Example13.tsx";
+// SECTION 4.5
+import Section4Part5 from "./pages/chapters/chapter4/section4.5/Section4.5Page.tsx";
+import Chapter4Section4Part5Example01 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example01/Example01.tsx";
+import Chapter4Section4Part5Example02 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example02/Example02.tsx";
+import Chapter4Section4Part5Example03 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example03/Example03.tsx";
+import Chapter4Section4Part5Example04 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example04/Example04.tsx";
+import Chapter4Section4Part5Example05 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example05/Example05.tsx";
+import Chapter4Section4Part5Example06 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example06/Example06.tsx";
+import Chapter4Section4Part5Example07 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example07/Example07.tsx";
+import Chapter4Section4Part5Example08 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example08/Example08.tsx";
+import Chapter4Section4Part5Example09 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example09/Example09.tsx";
+import Chapter4Section4Part5Example10 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example10/Example10.tsx";
+import Chapter4Section4Part5Example11 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example11/Example11.tsx";
+import Chapter4Section4Part5Example12 from "./pages/chapters/chapter4/section4.5/examples/root-folder-example12/Example12.tsx";
+// SECTION 4.6
+import Section4Part6 from "./pages/chapters/chapter4/section4.6/Section4.6Page.tsx";
+import Chapter4Section4Part6Example01 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example01/Example01.tsx";
+import Chapter4Section4Part6Example02 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example02/Example02.tsx";
+import Chapter4Section4Part6Example03 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example03/Example03.tsx";
+import Chapter4Section4Part6Example04 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example04/Example04.tsx";
+import Chapter4Section4Part6Example05 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example05/Example05.tsx";
+import Chapter4Section4Part6Example06 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example06/Example06.tsx";
+import Chapter4Section4Part6Example07 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example07/Example07.tsx";
+import Chapter4Section4Part6Example08 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example08/Example08.tsx";
+import Chapter4Section4Part6Example09 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example09/Example09.tsx";
+import Chapter4Section4Part6Example10 from "./pages/chapters/chapter4/section4.6/examples/root-folder-example10/Example10.tsx";
+// SECTION 4.7
+import Section4Part7 from "./pages/chapters/chapter4/section4.7/Section4.7Page.tsx";
+import Chapter4Section4Part7Example01 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example01/Example01.tsx";
+import Chapter4Section4Part7Example02 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example02/Example02.tsx";
+import Chapter4Section4Part7Example03 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example03/Example03.tsx";
+import Chapter4Section4Part7Example04 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example04/Example04.tsx";
+import Chapter4Section4Part7Example05 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example05/Example05.tsx";
+import Chapter4Section4Part7Example06 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example06/Example06.tsx";
+import Chapter4Section4Part7Example07 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example07/Example07.tsx";
+import Chapter4Section4Part7Example08 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example08/Example08.tsx";
+import Chapter4Section4Part7Example09 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example09/Example09.tsx";
+import Chapter4Section4Part7Example10 from "./pages/chapters/chapter4/section4.7/examples/root-folder-example10/Example10.tsx";
+// SECTION 4.8
+import Section4Part8 from "./pages/chapters/chapter4/section4.8/Section4.8Page.tsx";
+import Chapter4Section4Part8Example01 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example01/Example01.tsx";
+import Chapter4Section4Part8Example02 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example02/Example02.tsx";
+import Chapter4Section4Part8Example03 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example03/Example03.tsx";
+import Chapter4Section4Part8Example04 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example04/Example04.tsx";
+import Chapter4Section4Part8Example05 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example05/Example05.tsx";
+import Chapter4Section4Part8Example06 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example06/Example06.tsx";
+import Chapter4Section4Part8Example07 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example07/Example07.tsx";
+import Chapter4Section4Part8Example08 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example08/Example08.tsx";
+import Chapter4Section4Part8Example09 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example09/Example09.tsx";
+import Chapter4Section4Part8Example10 from "./pages/chapters/chapter4/section4.8/examples/root-folder-example10/Example10.tsx";
 
 // We setup React-Router-Dom for our web app's navigation here.
 export default function App() {
@@ -1591,6 +1694,466 @@ export default function App() {
             />
           }
         />
+        {/* Chapter 4 Section 4.1 page */}
+        <Route
+          path="/section4.1"
+          element={
+            <Section4Part1
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.1"
+              sectionTitle="Referencing Values with Refs"
+            />
+          }
+        />
+        {/* Chapter 4 Section 4.1 examples */}
+        <Route
+          path="/section4.1/example01"
+          element={<Chapter4Section4Part1Example01 />}
+        />
+        <Route
+          path="/section4.1/example02"
+          element={<Chapter4Section4Part1Example02 />}
+        />
+        <Route
+          path="/section4.1/example03"
+          element={<Chapter4Section4Part1Example03 />}
+        />
+        <Route
+          path="/section4.1/example04"
+          element={<Chapter4Section4Part1Example04 />}
+        />
+        <Route
+          path="/section4.1/example05"
+          element={<Chapter4Section4Part1Example05 />}
+        />
+        <Route
+          path="/section4.1/example06"
+          element={<Chapter4Section4Part1Example06 />}
+        />
+        <Route
+          path="/section4.1/example07"
+          element={<Chapter4Section4Part1Example07 />}
+        />
+        <Route
+          path="/section4.1/example08"
+          element={<Chapter4Section4Part1Example08 />}
+        />
+        <Route
+          path="/section4.1/example09"
+          element={<Chapter4Section4Part1Example09 />}
+        />
+        <Route
+          path="/section4.1/example10"
+          element={<Chapter4Section4Part1Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 4 Section 4.2 page */}
+        <Route
+          path="/section4.2"
+          element={
+            <Section4Part2
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.2"
+              sectionTitle="Manipulating the DOM with Refs"
+            />
+          }
+        />
+        {/* Chapter 4 Section 4.2 examples */}
+        <Route
+          path="/section4.2/example01"
+          element={<Chapter4Section4Part2Example01 />}
+        />
+        <Route
+          path="/section4.2/example02"
+          element={<Chapter4Section4Part2Example02 />}
+        />
+        <Route
+          path="/section4.2/example03"
+          element={<Chapter4Section4Part2Example03 />}
+        />
+        <Route
+          path="/section4.2/example04"
+          element={<Chapter4Section4Part2Example04 />}
+        />
+        <Route
+          path="/section4.2/example05"
+          element={<Chapter4Section4Part2Example05 />}
+        />
+        <Route
+          path="/section4.2/example06"
+          element={<Chapter4Section4Part2Example06 />}
+        />
+        <Route
+          path="/section4.2/example07"
+          element={<Chapter4Section4Part2Example07 />}
+        />
+        <Route
+          path="/section4.2/example08"
+          element={<Chapter4Section4Part2Example08 />}
+        />
+        <Route
+          path="/section4.2/example09"
+          element={<Chapter4Section4Part2Example09 />}
+        />
+        <Route
+          path="/section4.2/example10"
+          element={<Chapter4Section4Part2Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 4 Section 4.3 page */}
+        <Route
+          path="/section4.3"
+          element={
+            <Section4Part3
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.3"
+              sectionTitle="Synchronizing with Effects"
+            />
+          }
+        />
+        {/* Chapter 4 Section 4.3 examples */}
+        <Route
+          path="/section4.3/example01"
+          element={<Chapter4Section4Part3Example01 />}
+        />
+        <Route
+          path="/section4.3/example02"
+          element={<Chapter4Section4Part3Example02 />}
+        />
+        <Route
+          path="/section4.3/example03"
+          element={<Chapter4Section4Part3Example03 />}
+        />
+        <Route
+          path="/section4.3/example04"
+          element={<Chapter4Section4Part3Example04 />}
+        />
+        <Route
+          path="/section4.3/example05"
+          element={<Chapter4Section4Part3Example05 />}
+        />
+        <Route
+          path="/section4.3/example06"
+          element={<Chapter4Section4Part3Example06 />}
+        />
+        <Route
+          path="/section4.3/example07"
+          element={<Chapter4Section4Part3Example07 />}
+        />
+        <Route
+          path="/section4.3/example08"
+          element={<Chapter4Section4Part3Example08 />}
+        />
+        <Route
+          path="/section4.3/example09"
+          element={<Chapter4Section4Part3Example09 />}
+        />
+        <Route
+          path="/section4.3/example10"
+          element={<Chapter4Section4Part3Example10 />}
+        />
+        <Route
+          path="/section4.3/example11"
+          element={<Chapter4Section4Part3Example11 />}
+        />
+        <Route
+          path="/section4.3/example12"
+          element={<Chapter4Section4Part3Example12 />}
+        />
+        {/* End of section */}
+        {/* Chapter 4 Section 4.4 page */}
+        <Route
+          path="/section4.4"
+          element={
+            <Section4Part4
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.4"
+              sectionTitle="You Might Not Need an Effect"
+            />
+          }
+        />
+        {/* Chapter 4 Section 4.4 examples */}
+        <Route
+          path="/section4.4/example01"
+          element={<Chapter4Section4Part4Example01 />}
+        />
+        <Route
+          path="/section4.4/example02"
+          element={<Chapter4Section4Part4Example02 />}
+        />
+        <Route
+          path="/section4.4/example03"
+          element={<Chapter4Section4Part4Example03 />}
+        />
+        <Route
+          path="/section4.4/example04"
+          element={<Chapter4Section4Part4Example04 />}
+        />
+        <Route
+          path="/section4.4/example05"
+          element={<Chapter4Section4Part4Example05 />}
+        />
+        <Route
+          path="/section4.4/example06"
+          element={<Chapter4Section4Part4Example06 />}
+        />
+        <Route
+          path="/section4.4/example07"
+          element={<Chapter4Section4Part4Example07 />}
+        />
+        <Route
+          path="/section4.4/example08"
+          element={<Chapter4Section4Part4Example08 />}
+        />
+        <Route
+          path="/section4.4/example09"
+          element={<Chapter4Section4Part4Example09 />}
+        />
+        <Route
+          path="/section4.4/example10"
+          element={<Chapter4Section4Part4Example10 />}
+        />
+        <Route
+          path="/section4.4/example11"
+          element={<Chapter4Section4Part4Example11 />}
+        />
+        <Route
+          path="/section4.4/example12"
+          element={<Chapter4Section4Part4Example12 />}
+        />
+        <Route
+          path="/section4.4/example13"
+          element={<Chapter4Section4Part4Example13 />}
+        />
+        {/* End of section */}
+        {/* Chapter 4 Section 4.5 page */}
+        <Route
+          path="/section4.5"
+          element={
+            <Section4Part5
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.5"
+              sectionTitle="Lifecycle of Reactive Effects"
+            />
+          }
+        />
+        {/* Chapter 4 Section 4.5 examples */}
+        <Route
+          path="/section4.5/example01"
+          element={<Chapter4Section4Part5Example01 />}
+        />
+        <Route
+          path="/section4.5/example02"
+          element={<Chapter4Section4Part5Example02 />}
+        />
+        <Route
+          path="/section4.5/example03"
+          element={<Chapter4Section4Part5Example03 />}
+        />
+        <Route
+          path="/section4.5/example04"
+          element={<Chapter4Section4Part5Example04 />}
+        />
+        <Route
+          path="/section4.5/example05"
+          element={<Chapter4Section4Part5Example05 />}
+        />
+        <Route
+          path="/section4.5/example06"
+          element={<Chapter4Section4Part5Example06 />}
+        />
+        <Route
+          path="/section4.5/example07"
+          element={<Chapter4Section4Part5Example07 />}
+        />
+        <Route
+          path="/section4.5/example08"
+          element={<Chapter4Section4Part5Example08 />}
+        />
+        <Route
+          path="/section4.5/example09"
+          element={<Chapter4Section4Part5Example09 />}
+        />
+        <Route
+          path="/section4.5/example10"
+          element={<Chapter4Section4Part5Example10 />}
+        />
+        <Route
+          path="/section4.5/example11"
+          element={<Chapter4Section4Part5Example11 />}
+        />
+        <Route
+          path="/section4.5/example12"
+          element={<Chapter4Section4Part5Example12 />}
+        />
+        {/* End of section */}
+        {/* Chapter 4 Section 4.6 page */}
+        <Route
+          path="/section4.6"
+          element={
+            <Section4Part6
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.6"
+              sectionTitle="Separating Events from Effects"
+            />
+          }
+        />
+        {/* Chapter 4 Section 4.6 examples */}
+        <Route
+          path="/section4.6/example01"
+          element={<Chapter4Section4Part6Example01 />}
+        />
+        <Route
+          path="/section4.6/example02"
+          element={<Chapter4Section4Part6Example02 />}
+        />
+        <Route
+          path="/section4.6/example03"
+          element={<Chapter4Section4Part6Example03 />}
+        />
+        <Route
+          path="/section4.6/example04"
+          element={<Chapter4Section4Part6Example04 />}
+        />
+        <Route
+          path="/section4.6/example05"
+          element={<Chapter4Section4Part6Example05 />}
+        />
+        <Route
+          path="/section4.6/example06"
+          element={<Chapter4Section4Part6Example06 />}
+        />
+        <Route
+          path="/section4.6/example07"
+          element={<Chapter4Section4Part6Example07 />}
+        />
+        <Route
+          path="/section4.6/example08"
+          element={<Chapter4Section4Part6Example08 />}
+        />
+        <Route
+          path="/section4.6/example09"
+          element={<Chapter4Section4Part6Example09 />}
+        />
+        <Route
+          path="/section4.6/example10"
+          element={<Chapter4Section4Part6Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 4 Section 4.7 page */}
+        <Route
+          path="/section4.7"
+          element={
+            <Section4Part7
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.7"
+              sectionTitle="Removing Effect Dependencies"
+            />
+          }
+        />
+        {/* Chapter 4 Section 4.7 examples */}
+        <Route
+          path="/section4.7/example01"
+          element={<Chapter4Section4Part7Example01 />}
+        />
+        <Route
+          path="/section4.7/example02"
+          element={<Chapter4Section4Part7Example02 />}
+        />
+        <Route
+          path="/section4.7/example03"
+          element={<Chapter4Section4Part7Example03 />}
+        />
+        <Route
+          path="/section4.7/example04"
+          element={<Chapter4Section4Part7Example04 />}
+        />
+        <Route
+          path="/section4.7/example05"
+          element={<Chapter4Section4Part7Example05 />}
+        />
+        <Route
+          path="/section4.7/example06"
+          element={<Chapter4Section4Part7Example06 />}
+        />
+        <Route
+          path="/section4.7/example07"
+          element={<Chapter4Section4Part7Example07 />}
+        />
+        <Route
+          path="/section4.7/example08"
+          element={<Chapter4Section4Part7Example08 />}
+        />
+        <Route
+          path="/section4.7/example09"
+          element={<Chapter4Section4Part7Example09 />}
+        />
+        <Route
+          path="/section4.7/example10"
+          element={<Chapter4Section4Part7Example10 />}
+        />
+        {/* End of section */}
+        {/* Chapter 4 Section 4.8 page */}
+        <Route
+          path="/section4.8"
+          element={
+            <Section4Part8
+              chapterNum="4"
+              chapterTitle="Escape Hatches"
+              sectionNum="4.8"
+              sectionTitle="Reusing Logic with Custom Hooks"
+            />
+          }
+        />
+        {/* Chapter 4 Section 4.8 examples */}
+        <Route
+          path="/section4.8/example01"
+          element={<Chapter4Section4Part8Example01 />}
+        />
+        <Route
+          path="/section4.8/example02"
+          element={<Chapter4Section4Part8Example02 />}
+        />
+        <Route
+          path="/section4.8/example03"
+          element={<Chapter4Section4Part8Example03 />}
+        />
+        <Route
+          path="/section4.8/example04"
+          element={<Chapter4Section4Part8Example04 />}
+        />
+        <Route
+          path="/section4.8/example05"
+          element={<Chapter4Section4Part8Example05 />}
+        />
+        <Route
+          path="/section4.8/example06"
+          element={<Chapter4Section4Part8Example06 />}
+        />
+        <Route
+          path="/section4.8/example07"
+          element={<Chapter4Section4Part8Example07 />}
+        />
+        <Route
+          path="/section4.8/example08"
+          element={<Chapter4Section4Part8Example08 />}
+        />
+        <Route
+          path="/section4.8/example09"
+          element={<Chapter4Section4Part8Example09 />}
+        />
+        <Route
+          path="/section4.8/example10"
+          element={<Chapter4Section4Part8Example10 />}
+        />
+        {/* End of section */}
       </Routes>
     </BrowserRouter>
   );

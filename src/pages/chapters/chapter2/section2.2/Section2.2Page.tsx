@@ -1,10 +1,39 @@
 import { Link } from "react-router-dom";
+import ExampleButton from "../../../../components/exampleButton";
+import PageContainer from "../../../../components/PageContainer";
+
+const examplesData = [
+  {
+    exampleNum: "01",
+    exampleTitle: "When a regular variable isn't enough",
+  },
+  {
+    exampleNum: "02",
+    exampleTitle: "Adding a state variable",
+  },
+  {
+    exampleNum: "03",
+    exampleTitle: "Meet your first Hook",
+  },
+  {
+    exampleNum: "04",
+    exampleTitle: "Anatomy of useState",
+  },
+  {
+    exampleNum: "05",
+    exampleTitle: "Giving a component multiple state variables",
+  },
+  {
+    exampleNum: "06",
+    exampleTitle: "State is isolated and private",
+  },
+];
 
 type HomePagePropTypes = {
-  chapterNum: String;
-  chapterTitle: String;
-  sectionNum: String;
-  sectionTitle: String;
+  chapterNum: string;
+  chapterTitle: string;
+  sectionNum: string;
+  sectionTitle: string;
 };
 
 export default function Chapter2Page({
@@ -14,7 +43,7 @@ export default function Chapter2Page({
   sectionTitle,
 }: HomePagePropTypes) {
   return (
-    <div className="page-container">
+    <PageContainer>
       <Link className="link-homepage" to="/chapter2">
         Back to <span className="font-bold">Chapter Page</span>
       </Link>
@@ -22,58 +51,23 @@ export default function Chapter2Page({
         <h2 className="">
           Chapter {chapterNum}: {chapterTitle}
         </h2>
-        <h2 className="">
+        <h2 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
           Section {sectionNum}: {sectionTitle}
         </h2>
       </section>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 01: When a regular variable isn't enough
-      </h2>
-      <button>
-        <Link to="/section2.2/example01">Example 01</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 02: Adding a state variable
-      </h2>
-      <button>
-        <Link to="/section2.2/example02">Example 02</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 03: Meet your first Hook
-      </h2>
-      <button>
-        <Link to="/section2.2/example03">Example 03</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 04: Anatomy of useState
-      </h2>
-      <button>
-        <Link to="/section2.2/example04">Example 04</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 05: Giving a component multiple state variables
-      </h2>
-      <button>
-        <Link to="/section2.2/example05">Example 05</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 06: State is isolated and private
-      </h2>
-      <button>
-        <Link to="/section2.2/example06">Example 06</Link>
-      </button>
-      <button>
-        <Link to="/section2.2/example07">Example 07</Link>
-      </button>
-      <button>
-        <Link to="/section2.2/example08">Example 08</Link>
-      </button>
-      <button>
-        <Link to="/section2.2/example09">Example 09</Link>
-      </button>
-      <button>
-        <Link to="/section2.2/example10">Example 10</Link>
-      </button>
-    </div>
+      <div>
+        {examplesData.map((example) => (
+          <ExampleButton
+            key={example.exampleNum}
+            exampleTitle={example.exampleTitle}
+            exampleNum={example.exampleNum}
+            sectionNum={sectionNum}
+            sectionTitle={sectionTitle}
+            chapterNum={chapterNum}
+            chapterTitle={chapterTitle}
+          />
+        ))}
+      </div>
+    </PageContainer>
   );
 }

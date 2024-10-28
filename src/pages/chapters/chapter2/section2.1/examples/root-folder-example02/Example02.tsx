@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-type AlertButtonProps = {
+interface AlertButtonProps {
   message: string;
   children: React.ReactNode;
-};
+}
 
 function AlertButton({ message, children }: AlertButtonProps) {
   return <button onClick={() => alert(message)}>{children}</button>;

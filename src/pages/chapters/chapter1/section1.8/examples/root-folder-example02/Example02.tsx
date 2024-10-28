@@ -8,7 +8,7 @@ export default function Example02() {
         Back to <span className="font-bold">Section Page</span>
       </Link>
       <section className="py-6 text-xl">
-        <h2>Example 02: Exporting and importing a component</h2>
+        <h2>Example 02: Side Effect: (un)intended consequences</h2>
       </section>
       <App />
     </div>

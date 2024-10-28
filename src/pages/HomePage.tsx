@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PageContainer from "../components/PageContainer";
 
 type HomePagePropTypes = {
   chapterNum1: String;
@@ -22,8 +23,8 @@ export default function HomePage({
   chapterTitle4,
 }: HomePagePropTypes) {
   return (
-    <div className="page-container">
-      <header className="flex justify-center items-center min-w-full py-6 group relative bg-gradient-to-br from-blue-400 to-green-400 rounded-lg hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-500">
+    <PageContainer>
+      <header className="rounded-b-lg flex justify-center items-center min-w-full py-6 group relative bg-gradient-to-br from-blue-400 to-green-400  hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-500">
         <img src="/atom.svg" alt="atom icon" width="120" />
         <div className="text-3xl">
           <h1>
@@ -58,9 +59,6 @@ export default function HomePage({
       <button>
         <Link to="/chapter4">Chapter 4</Link>
       </button>
-      <footer className="text-xs mt-20 font-extralight">
-        © 2024 Made in 🇹🇭 by JSD8 & NAKKK 🌏
-      </footer>
-    </div>
+    </PageContainer>
   );
 }

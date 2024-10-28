@@ -4,7 +4,7 @@
 
 @layer base {
   .page-container {
-    @apply min-h-screen bg-[#242424] flex flex-col justify-start items-center text-center text-white text-6xl;
+    @apply min-h-screen pb-20 bg-[#242424] flex flex-col justify-start items-center text-center text-white text-6xl;
   }
   button {
     @apply mx-1 my-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-full;

@@ -13,7 +13,7 @@ function Item({ name, isPacked }: ItemProps) {
 
 export default function PackingList() {
   return (
-    <section>
+    <section className="bg-white text-black p-6 rounded-xl">
       <h1>Sally Ride's Packing List</h1>
       <ul className="list-disc list-inside text-start text-xl">
         <Item isPacked={true} name="Space suit" />

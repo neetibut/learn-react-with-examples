@@ -1,11 +1,37 @@
 import { Link } from "react-router-dom";
+import ExampleButton from "../../../../components/ExampleButton";
+import PageContainer from "../../../../components/PageContainer";
 
-type HomePagePropTypes = {
-  chapterNum: String;
-  chapterTitle: String;
-  sectionNum: String;
-  sectionTitle: String;
-};
+const examplesData = [
+  {
+    exampleNum: "01",
+    exampleTitle: "React batches state updates",
+  },
+  {
+    exampleNum: "02",
+    exampleTitle:
+      "Updating the same state multiple times before the next order",
+  },
+  {
+    exampleNum: "03",
+    exampleTitle: "What happens if you update state after replacing it",
+  },
+  {
+    exampleNum: "04",
+    exampleTitle: "What happens if you replace state after updating it",
+  },
+  {
+    exampleNum: "05",
+    exampleTitle: "Naming conventions",
+  },
+];
+
+interface HomePagePropTypes {
+  chapterNum: string;
+  chapterTitle: string;
+  sectionNum: string;
+  sectionTitle: string;
+}
 
 export default function Chapter2Page({
   chapterNum,
@@ -14,7 +40,7 @@ export default function Chapter2Page({
   sectionTitle,
 }: HomePagePropTypes) {
   return (
-    <div className="page-container">
+    <PageContainer>
       <Link className="link-homepage" to="/chapter2">
         Back to <span className="font-bold">Chapter Page</span>
       </Link>
@@ -22,52 +48,23 @@ export default function Chapter2Page({
         <h2 className="">
           Chapter {chapterNum}: {chapterTitle}
         </h2>
-        <h2 className="">
+        <h2 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
           Section {sectionNum}: {sectionTitle}
         </h2>
       </section>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 01: React batches state updates
-      </h2>
-      <button>
-        <Link to="/section2.5/example01">Example 01</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 02: Updating the same state multiple times before the next order
-      </h2>
-      <button>
-        <Link to="/section2.5/example02">Example 02</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 03: What happens if you update state after replacing it
-      </h2>
-      <button>
-        <Link to="/section2.5/example03">Example 03</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 04: Naming conventions
-      </h2>
-      <button>
-        <Link to="/section2.5/example04">Example 04</Link>
-      </button>
-      <button>
-        <Link to="/section2.5/example05">Example 05</Link>
-      </button>
-      <button>
-        <Link to="/section2.5/example06">Example 06</Link>
-      </button>
-      <button>
-        <Link to="/section2.5/example07">Example 07</Link>
-      </button>
-      <button>
-        <Link to="/section2.5/example08">Example 08</Link>
-      </button>
-      <button>
-        <Link to="/section2.5/example09">Example 09</Link>
-      </button>
-      <button>
-        <Link to="/section2.5/example10">Example 10</Link>
-      </button>
-    </div>
+      <div>
+        {examplesData.map((example) => (
+          <ExampleButton
+            key={example.exampleNum}
+            exampleTitle={example.exampleTitle}
+            exampleNum={example.exampleNum}
+            sectionNum={sectionNum}
+            sectionTitle={sectionTitle}
+            chapterNum={chapterNum}
+            chapterTitle={chapterTitle}
+          />
+        ))}
+      </div>
+    </PageContainer>
   );
 }

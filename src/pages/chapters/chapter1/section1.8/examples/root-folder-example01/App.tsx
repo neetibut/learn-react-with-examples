@@ -4,7 +4,7 @@ interface RecipeProps {
 
 function Recipe({ drinkers }: RecipeProps) {
   return (
-    <ol>
+    <ol className="list-disc list-inside text-2xl">
       <li>Boil {drinkers} cups of water.</li>
       <li>
         Add {drinkers} spoons of tea and {0.5 * drinkers} spoons of spice.
@@ -16,11 +16,11 @@ function Recipe({ drinkers }: RecipeProps) {
 
 export default function App() {
   return (
-    <section>
-      <h1>Spiced Chai Recipe</h1>
-      <h2>For two</h2>
+    <section className="bg-white text-black rounded-xl p-6 text-start">
+      <h1 className="text-4xl">Spiced Chai Recipe</h1>
+      <h2 className="text-3xl">For two</h2>
       <Recipe drinkers={2} />
-      <h2>For a gathering</h2>
+      <h2 className="text-3xl">For a gathering</h2>
       <Recipe drinkers={4} />
     </section>
   );

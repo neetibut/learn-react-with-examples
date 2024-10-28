@@ -15,8 +15,9 @@ export default function Example01() {
         Back to Section Page
       </Link>
       <section className="py-6 text-xl">
-        <h2>Example 01: </h2>
-        <h2>Adding event handlers</h2>
+        <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
+          Example 01: Adding event handlers
+        </h2>
       </section>
       <Button />
       <button

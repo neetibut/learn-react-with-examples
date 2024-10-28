@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import PageContainer from "../../../components/PageContainer";
+import SectionButton from "../../../components/SectionButton";
 
 type HomePagePropTypes = {
   chapterNum: String;
@@ -7,14 +9,43 @@ type HomePagePropTypes = {
   sectionTitle: String;
 };
 
+const sectionsData = [
+  {
+    sectionNum: "3.1",
+    sectionTitle: "Reacting to Input with State",
+  },
+  {
+    sectionNum: "3.2",
+    sectionTitle: "Choosing the State Structure",
+  },
+  {
+    sectionNum: "3.3",
+    sectionTitle: "Sharing State Between Components",
+  },
+  {
+    sectionNum: "3.4",
+    sectionTitle: "Preserving and Resetting State",
+  },
+  {
+    sectionNum: "3.5",
+    sectionTitle: "Extracting State Logic into a Reducer",
+  },
+  {
+    sectionNum: "3.6",
+    sectionTitle: "Passing Data Deeply with Context",
+  },
+  {
+    sectionNum: "3.7",
+    sectionTitle: "Scaling Up with Reducer and Context",
+  },
+];
+
 export default function Chapter3Page({
   chapterNum,
-  sectionNum,
   chapterTitle,
-  sectionTitle,
 }: HomePagePropTypes) {
   return (
-    <div className="page-container">
+    <PageContainer>
       <Link className="link-homepage" to="/">
         Back to Home Page
       </Link>
@@ -23,49 +54,16 @@ export default function Chapter3Page({
           Chapter {chapterNum}: <span>{chapterTitle}</span>
         </h2>
       </section>
-      {/* <h2 className="py-6 text-xl">
-        Section 3.1: Reacting to Input with State
-      </h2>
-      <button>
-        <Link to="/section3.1">Section 3.1</Link>
-      </button>
-      <h2 className="py-6 text-xl">
-        Section 3.2: Choosing the State Structure
-      </h2>
-      <button>
-        <Link to="/section3.2">Section 3.2</Link>
-      </button>
-      <h2 className="py-6 text-xl">
-        Section 3.3: Sharing State Between Components
-      </h2>
-      <button>
-        <Link to="/section3.3">Section 3.3</Link>
-      </button>
-      <h2 className="py-6 text-xl">
-        Section 3.4: Preserving and Resetting State
-      </h2>
-      <button>
-        <Link to="/section3.4">Section 3.4</Link>
-      </button>
-      <h2 className="py-6 text-xl">
-        Section 3.5: Extracting State Logic into a Reducer
-      </h2>
-      <button>
-        <Link to="/section3.5">Section 3.5</Link>
-      </button>
-      <h2 className="py-6 text-xl">
-        Section 3.6: Passing Data Deeply with Context
-      </h2>
-      <button>
-        <Link to="/section3.6">Section 3.6</Link>
-      </button>
-      <h2 className="py-6 text-xl">
-        Section 3.7: Scaling Up with Reducer and Context
-      </h2>
-      <button>
-        <Link to="/section3.7">Section 3.7</Link>
-      </button> */}
-      <h1>Coming soon... 🧙‍♂️</h1>
-    </div>
+      <div>
+        {sectionsData.map((section) => (
+          <SectionButton
+            key={section.sectionNum}
+            sectionNum={section.sectionNum}
+            sectionTitle={section.sectionTitle}
+          />
+        ))}
+      </div>
+      {/* <h1>Coming soon... 🧙‍♂️</h1> */}
+    </PageContainer>
   );
 }

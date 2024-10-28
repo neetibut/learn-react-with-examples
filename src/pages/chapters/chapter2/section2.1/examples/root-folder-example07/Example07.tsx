@@ -80,9 +80,9 @@ type OnClickType = (
 ) => void;
 
 // Define a type for the props of InnerDiv and MiddleDiv
-type ButtonProps = {
+interface ButtonProps {
   onClick: OnClickType;
-};
+}
 
 // Child component receives the parent handler and calls it explicitly
 function InnerDiv({ onClick }: ButtonProps) {

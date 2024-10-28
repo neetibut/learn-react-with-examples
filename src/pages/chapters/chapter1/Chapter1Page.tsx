@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PageContainer from "../../../components/PageContainer";
 
 type HomePagePropTypes = {
   chapterNum: String;
@@ -10,7 +11,7 @@ export default function Chapter1Page({
   chapterTitle,
 }: HomePagePropTypes) {
   return (
-    <div className="page-container">
+    <PageContainer>
       <Link className="link-homepage" to="/">
         Back to <span className="font-bold">Home Page</span>
       </Link>
@@ -73,6 +74,6 @@ export default function Chapter1Page({
       <button>
         <Link to="/section1.9">Section 9</Link>
       </button>
-    </div>
+    </PageContainer>
   );
 }

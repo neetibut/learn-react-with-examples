@@ -1,11 +1,40 @@
 import { Link } from "react-router-dom";
+import PageContainer from "../../../../components/PageContainer";
+import ExampleButton from "../../../../components/ExampleButton";
 
-type HomePagePropTypes = {
-  chapterNum: String;
-  chapterTitle: String;
-  sectionNum: String;
-  sectionTitle: String;
-};
+const examplesData = [
+  {
+    exampleNum: "01",
+    exampleTitle: "Adding event handlers",
+  },
+  {
+    exampleNum: "02",
+    exampleTitle: "Reading props in event handlers",
+  },
+  {
+    exampleNum: "03",
+    exampleTitle: "Passing event handlers as props",
+  },
+  {
+    exampleNum: "04",
+    exampleTitle: "Naming event handler props",
+  },
+  {
+    exampleNum: "05",
+    exampleTitle: "Event propagation",
+  },
+  {
+    exampleNum: "06",
+    exampleTitle: "Stop propagation",
+  },
+];
+
+interface HomePagePropTypes {
+  chapterNum: string;
+  chapterTitle: string;
+  sectionNum: string;
+  sectionTitle: string;
+}
 
 export default function Chapter2Page({
   chapterNum,
@@ -14,7 +43,7 @@ export default function Chapter2Page({
   sectionTitle,
 }: HomePagePropTypes) {
   return (
-    <div className="page-container">
+    <PageContainer>
       <Link className="link-homepage" to="/chapter2">
         Back to <span className="font-bold">Chapter Page</span>
       </Link>
@@ -22,70 +51,23 @@ export default function Chapter2Page({
         <h2 className="">
           Chapter {chapterNum}: {chapterTitle}
         </h2>
-        <h2 className="">
+        <h2 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">
           Section {sectionNum}: {sectionTitle}
         </h2>
       </section>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 01: Adding event handlers
-      </h2>
-      <button>
-        <Link to="/section2.1/example01">Example 01</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 02: Reading props in event handlers
-      </h2>
-      <button>
-        <Link to="/section2.1/example02">Example 02</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 03: Passing event handlers as props
-      </h2>
-      <button>
-        <Link to="/section2.1/example03">Example 03</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 04: Naming event handler props
-      </h2>
-      <button>
-        <Link to="/section2.1/example04">Example 04</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 05: Event propagation
-      </h2>
-      <button>
-        <Link to="/section2.1/example05">Example 05</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 06: Stopping propagation
-      </h2>
-      <button>
-        <Link to="/section2.1/example06">Example 06</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 07: Passing handlers as alternative to propagation
-      </h2>
-      <button>
-        <Link to="/section2.1/example07">Example 07</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 08: Preventing default behavior
-      </h2>
-      <button>
-        <Link to="/section2.1/example08">Example 08</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 09: Can event handlers have side effects?
-      </h2>
-      <button>
-        <Link to="/section2.1/example09">Example 09</Link>
-      </button>
-      <h2 className="pt-6 text-xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500">
-        Example 09: ?
-      </h2>
-      <button>
-        <Link to="/section2.1/example10">Example 10</Link>
-      </button>
-    </div>
+      <div>
+        {examplesData.map((example) => (
+          <ExampleButton
+            key={example.exampleNum}
+            exampleTitle={example.exampleTitle}
+            exampleNum={example.exampleNum}
+            sectionNum={sectionNum}
+            sectionTitle={sectionTitle}
+            chapterNum={chapterNum}
+            chapterTitle={chapterTitle}
+          />
+        ))}
+      </div>
+    </PageContainer>
   );
 }
